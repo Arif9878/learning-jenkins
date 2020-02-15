@@ -4,3 +4,5 @@ services:
   learningjenkins:
     build: .
     command: npm start
+    ports:
+      - 8089:8089

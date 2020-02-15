@@ -3,7 +3,6 @@ WORKDIR /usr/src/app
 
 #COPY package*.json ./
 #COPY package-lock*.json ./
-COPY .env-example ./.env
 COPY . ./
 
 RUN npm ci --production
